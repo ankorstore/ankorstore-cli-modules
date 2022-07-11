@@ -7,6 +7,7 @@ import (
 var (
 	AppName    = "ankor"
 	TemplateFS embed.FS
+	PluginFs   embed.FS
 	confDir    string
 	Force      bool
 )
